@@ -1,0 +1,25 @@
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Your Nikto installation is out of date.
++ Target IP:          149.56.244.87
++ Target Hostname:    megacorpone.com
++ Target Port:        80
++ Platform:           Linux/Unix
++ Start Time:         2026-03-18 20:09:31 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.66 (Debian)
++ No CGI Directories found (use '-C all' to force check all possible dirs). CGI tests skipped.
++ [999997] /robots.txt: Entry '/nanites.php' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ [999996] /robots.txt: contains 2 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ [999984] /: Server may leak inodes via ETags, header found with file /, inode: 390b, size: 596aedca79780, mtime: gzip. See: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1418
++ [013587] /: Suggested security header missing: referrer-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
++ [013587] /: Suggested security header missing: x-content-type-options. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
++ [013587] /: Suggested security header missing: content-security-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
++ [013587] /: Suggested security header missing: permissions-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy
++ [013587] /: Suggested security header missing: strict-transport-security. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ [999990] OPTIONS: Allowed HTTP Methods: OPTIONS, HEAD, GET, POST .
++ [750500] /admin/: Directory indexing found.
++ Scan terminated: 0 errors and 10 items reported on the remote host
++ End Time:           2026-03-18 20:10:32 (GMT-4) (61 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
